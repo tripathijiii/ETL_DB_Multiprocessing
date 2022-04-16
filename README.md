@@ -23,11 +23,13 @@ The time taken is reduced tremendously
 
 # Using different number of processes for transforming:
 2 processes:
+
 <img width="641" alt="multiprocessing" src="https://user-images.githubusercontent.com/60423130/163684772-79cc6804-8a8c-4373-8bfe-0ddea2a3d2db.png">
 
 we can see 10% improvement from 1 process
 
 3 processes:
+
 <img width="641" alt="Multiprocessing(3)" src="https://user-images.githubusercontent.com/60423130/163684808-075cd280-53c7-41b5-80b5-5f8ebb48a432.png">
 
 We can see not much improvement, this is due to the loading process limiting the speed.
