@@ -3,6 +3,7 @@ Here we are extracting files from a database transforming its values and then lo
 such as using a single process for ETL , using Extract Transform and load as 3 different processes, as Transform is time taking using different number of processes for Transform.
 
 INPUT:
+
 <img width="405" alt="Screenshot 2022-04-16 at 10 53 40 PM" src="https://user-images.githubusercontent.com/60423130/163685130-d4096239-08a9-4a3b-aa99-7d96ff77f765.png">
 
 OUTPUT:(after transformation):
