@@ -34,6 +34,11 @@ we can see 10% improvement from 1 process
 
 We can see not much improvement, this is due to the loading process limiting the speed.
 
+# How to run:
+to run the direct method just run the direct.py file.
+
+to run the multiprocessing method run Export_file.py , this will automatically initiate the other files, to run different number of processes and for different number of entries change the fields in the particular file.
+
 
 
 
