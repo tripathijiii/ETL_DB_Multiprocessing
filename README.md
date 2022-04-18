@@ -2,9 +2,14 @@
 Here we are extracting files from a database transforming its values and then loading the transformed values into another database using different methods.
 such as using a single process for ETL , using Extract Transform and load as 3 different processes, as Transform is time taking using different number of processes for Transform.
 
-INPUT:                                                                OUTPUT:(after transformation):
+INPUT:                                                                                        OUTPUT:(after transformation):
 
 <img width="405" alt="Screenshot 2022-04-16 at 10 53 40 PM" src="https://user-images.githubusercontent.com/60423130/163685130-d4096239-08a9-4a3b-aa99-7d96ff77f765.png">  <img width="405" alt="Screenshot 2022-04-16 at 10 51 48 PM" src="https://user-images.githubusercontent.com/60423130/163685149-bf22b88d-101a-4095-9cfa-d42ae5687faa.png">
+
+Comparison of Time taken:
+![Picture 1](https://user-images.githubusercontent.com/60423130/163766427-5ba8c3b4-004c-47c7-b39b-293453ed6827.png)
+
+
 
 Note these data are for 10Crore entries.
 # First we use the normal sequential method of ETL using a single process. results:
